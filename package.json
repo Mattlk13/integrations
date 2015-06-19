@@ -1,17 +1,18 @@
 {
-  "name": "segmentio-integrations",
-  "version": "1.2.20",
-  "description": "Segment.io server-side integrations",
-  "author": "Segment.io <friends@segment.io>",
-  "engines": {
-    "node": ">= 0.8"
-  },
-  "repository": "https://github.com/segmentio/integrations",
-  "main": "./index",
   "scripts": {
     "test": "mocha --reporter spec"
   },
+  "main": "./index",
+  "devDependencies": {},
   "dependencies": {
+    "integration-iterable": "git://github.com/segmentio/integration-iterable",
+    "integration-iron-io": "git://github.com/segmentio/integration-iron-io",
+    "integration-intercom": "git://github.com/segmentio/integration-intercom",
+    "integration-hubspot": "git://github.com/segmentio/integration-hubspot",
+    "integration-help-scout": "git://github.com/segmentio/integration-help-scout",
+    "integration-heap": "git://github.com/segmentio/integration-heap",
+    "integration-google-analytics": "git://github.com/segmentio/integration-google-analytics",
+    "integration-gainsight": "git://github.com/segmentio/integration-gainsight",
     "integration-amplitude": "git://github.com/segmentio/integration-amplitude",
     "integration-attribution": "git://github.com/segmentio/integration-attribution",
     "integration-calq": "git://github.com/segmentio/integration-calq",
@@ -19,22 +20,6 @@
     "integration-commandiq": "git://github.com/segmentio/integration-commandiq",
     "integration-customerio": "git://github.com/segmentio/integration-customerio",
     "integration-drip": "git://github.com/segmentio/integration-drip",
-    "integration-frontleaf": "git://github.com/segmentio/integration-frontleaf",
-    "integration-gainsight": "git://github.com/segmentio/integration-gainsight",
-    "integration-google-analytics": "git://github.com/segmentio/integration-google-analytics",
-    "integration-heap": "git://github.com/segmentio/integration-heap",
-    "integration-help-scout": "git://github.com/segmentio/integration-help-scout",
-    "integration-hubspot": "git://github.com/segmentio/integration-hubspot",
-    "integration-intercom": "git://github.com/segmentio/integration-intercom",
-    "integration-iron-io": "git://github.com/segmentio/integration-iron-io",
-    "integration-iterable": "git://github.com/segmentio/integration-iterable",
-    "integration-keen-io": "git://github.com/segmentio/integration-keen-io",
-    "integration-kissmetrics": "git://github.com/segmentio/integration-kissmetrics",
-    "integration-klaviyo": "git://github.com/segmentio/integration-klaviyo",
-    "integration-librato": "git://github.com/segmentio/integration-librato",
-    "integration-lytics": "git://github.com/segmentio/integration-lytics",
-    "integration-mailchimp": "git://github.com/segmentio/integration-mailchimp",
-    "integration-mixpanel": "git://github.com/segmentio/integration-mixpanel",
     "integration-outbound": "git://github.com/segmentio/integration-outbound",
     "integration-preact": "git://github.com/segmentio/integration-preact",
     "integration-stacklead": "git://github.com/segmentio/integration-stacklead",
@@ -42,7 +27,22 @@
     "integration-usercycle": "git://github.com/segmentio/integration-usercycle",
     "integration-vero": "git://github.com/segmentio/integration-vero",
     "integration-webhooks": "git://github.com/segmentio/integration-webhooks",
-    "integration-woopra": "git://github.com/segmentio/integration-woopra"
+    "integration-woopra": "git://github.com/segmentio/integration-woopra",
+    "integration-mixpanel": "git://github.com/segmentio/integration-mixpanel",
+    "integration-mailchimp": "git://github.com/segmentio/integration-mailchimp",
+    "integration-lytics": "git://github.com/segmentio/integration-lytics",
+    "integration-librato": "git://github.com/segmentio/integration-librato",
+    "integration-klaviyo": "git://github.com/segmentio/integration-klaviyo",
+    "integration-kissmetrics": "git://github.com/segmentio/integration-kissmetrics",
+    "integration-keen-io": "git://github.com/segmentio/integration-keen-io",
+    "integration-frontleaf": "git://github.com/segmentio/integration-frontleaf"
   },
-  "devDependencies": {}
+  "name": "@segment/segmentio-integrations",
+  "version": "1.2.20",
+  "description": "Segment.io server-side integrations",
+  "author": "Segment.io <friends@segment.io>",
+  "engines": {
+    "node": ">= 0.8"
+  },
+  "repository": "https://github.com/segmentio/integrations"
 }
