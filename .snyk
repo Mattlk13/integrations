@@ -1,0 +1,14 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.12.0
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:mime:20170907':
+    - integration-preact > segmentio-integration > superagent > mime:
+        patched: '2018-06-27T06:47:10.259Z'
+    - integration-preact > segmentio-integration > superagent > form-data > mime:
+        patched: '2018-06-27T06:47:10.259Z'
+    - integration-trakio > segmentio-integration > superagent > mime:
+        patched: '2018-06-27T06:47:10.259Z'
+    - integration-trakio > segmentio-integration > superagent > form-data > mime:
+        patched: '2018-06-27T06:47:10.259Z'
