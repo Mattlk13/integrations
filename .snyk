@@ -1,0 +1,50 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.14.0
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:ms:20151024':
+    - integration-hubspot > ms:
+        patched: '2020-01-29T01:36:45.137Z'
+    - integration-mixpanel > ms:
+        patched: '2020-01-29T01:36:45.137Z'
+    - integration-amplitude > segmentio-integration > ms:
+        patched: '2020-01-29T01:36:45.137Z'
+    - integration-attribution > segmentio-integration > ms:
+        patched: '2020-01-29T01:36:45.137Z'
+    - integration-calq > segmentio-integration > ms:
+        patched: '2020-01-29T01:36:45.137Z'
+    - integration-customerio > segmentio-integration > ms:
+        patched: '2020-01-29T01:36:45.137Z'
+    - integration-drip > segmentio-integration > ms:
+        patched: '2020-01-29T01:36:45.137Z'
+    - integration-gainsight > segmentio-integration > ms:
+        patched: '2020-01-29T01:36:45.137Z'
+    - integration-google-analytics > segmentio-integration > ms:
+        patched: '2020-01-29T01:36:45.137Z'
+    - integration-heap > segmentio-integration > ms:
+        patched: '2020-01-29T01:36:45.137Z'
+    - integration-help-scout > segmentio-integration > ms:
+        patched: '2020-01-29T01:36:45.137Z'
+    - integration-hubspot > segmentio-integration > ms:
+        patched: '2020-01-29T01:36:45.137Z'
+    - integration-intercom > segmentio-integration > ms:
+        patched: '2020-01-29T01:36:45.137Z'
+    - integration-iterable > segmentio-integration > ms:
+        patched: '2020-01-29T01:36:45.137Z'
+    - integration-keen-io > segmentio-integration > ms:
+        patched: '2020-01-29T01:36:45.137Z'
+    - integration-kissmetrics > segmentio-integration > ms:
+        patched: '2020-01-29T01:36:45.137Z'
+    - integration-klaviyo > segmentio-integration > ms:
+        patched: '2020-01-29T01:36:45.137Z'
+    - integration-librato > segmentio-integration > ms:
+        patched: '2020-01-29T01:36:45.137Z'
+    - integration-lytics > segmentio-integration > ms:
+        patched: '2020-01-29T01:36:45.137Z'
+    - integration-mixpanel > segmentio-integration > ms:
+        patched: '2020-01-29T01:36:45.137Z'
+    - integration-outbound > segmentio-integration > ms:
+        patched: '2020-01-29T01:36:45.137Z'
+    - integration-vero > segmentio-integration > ms:
+        patched: '2020-01-29T01:36:45.137Z'
