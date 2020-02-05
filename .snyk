@@ -1,0 +1,10 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.14.0
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:ms:20151024':
+    - integration-mixpanel > ms:
+        patched: '2020-02-05T01:37:05.848Z'
+    - integration-vero > segmentio-integration > ms:
+        patched: '2020-02-05T01:37:05.848Z'
