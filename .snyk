@@ -1,0 +1,14 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.14.1
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  SNYK-JS-LODASH-567746:
+    - integration-intercom > lodash:
+        patched: '2020-05-06T01:36:42.749Z'
+    - integration-vero > segmentio-integration > lodash:
+        patched: '2020-05-06T01:36:42.749Z'
+    - integration-frontleaf > segmentio-integration > lodash:
+        patched: '2020-05-06T01:36:42.749Z'
+    - integration-iron-io > segmentio-integration > lodash:
+        patched: '2020-05-06T01:36:42.749Z'
