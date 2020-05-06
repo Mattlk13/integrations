@@ -1,6 +1,8 @@
 {
   "scripts": {
-    "test": "mocha --reporter spec"
+    "test": "mocha --reporter spec",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "main": "./index",
   "devDependencies": {},
@@ -35,7 +37,8 @@
     "integration-klaviyo": "git://github.com/segmentio/integration-klaviyo",
     "integration-kissmetrics": "git://github.com/segmentio/integration-kissmetrics",
     "integration-keen-io": "git://github.com/segmentio/integration-keen-io",
-    "integration-frontleaf": "git://github.com/segmentio/integration-frontleaf"
+    "integration-frontleaf": "git://github.com/segmentio/integration-frontleaf",
+    "snyk": "^1.319.0"
   },
   "name": "@segment/segmentio-integrations",
   "version": "1.2.20",
@@ -44,5 +47,6 @@
   "engines": {
     "node": ">= 0.8"
   },
-  "repository": "https://github.com/segmentio/integrations"
+  "repository": "https://github.com/segmentio/integrations",
+  "snyk": true
 }
